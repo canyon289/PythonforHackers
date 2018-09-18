@@ -16,7 +16,8 @@ people_protocol = [["canyon289", "postgressql"],
 
 for person, protocol in people_protocol:
     # Equality is one type of conditional
-    # Equal is denotd as ==. Single = is called an assignment operator for reference
+    # Equal is denoted as ==
+    # Single = is called an assignment operator for reference
     if person == "Rtzq0":
         print("Hacking " + person + " with " + protocol + " even harder")
     else:
