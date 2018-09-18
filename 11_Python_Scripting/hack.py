@@ -23,9 +23,6 @@ with open(filepath, 'r') as password_file:
     # rstrip just removes the \n (newline) character from the end of the string
     PASSWORDS = [line.rstrip() for line in password_file]
 
-print(PASSWORDS)
-
-
 def pwn(people, passwords, protocols):
     """Actually hack people
 
