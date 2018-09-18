@@ -14,7 +14,7 @@ people = ["canyon289", "Rtzq0"]
 # Iteration in python is as easy as saying for thing in iterable
 # Lists are one of many objects that support iterables
 for person in people:
-    print("Hacking" + person)
+    print("Hacking " + person)
 
 # Python supports variable unpacking in line with lists
 protocols = {"postgressql": "sql",

@@ -32,11 +32,11 @@ https://github.com/x90skysn3k/brutespray/blob/master/brutespray.py#L288
 people = ["canyon289", "Rtzq0"]
 
 # Strings are great things to print
-print("Hacking" + people[0])
-print("Hacking" + people[1])
+print("Hacking " + people[0])
+print("Hacking " + people[1])
 
 # Dictionary are key value pairs useful for mapping one thing to another
-protocols = {"postgressql":"sql",
+protocols = {"postgressql": "sql",
              "pop3": "email"}
 
-print("Hacking" + people[0] + "'s" + protocols["pop3"])
+print("Hacking " + people[0] + "'s " + protocols["pop3"])
