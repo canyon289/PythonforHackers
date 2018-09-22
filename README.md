@@ -14,3 +14,7 @@ Here's the recipe.
 9. File IO
 10. Python Scripting
 11. Command Line Interface
+
+# How this repo works
+Each folder contains a Python script called hack.py. The functionality is built up one piece at a time
+* Links to example in Brutespray are provided at the top of each file
