@@ -28,7 +28,7 @@ except KeyError:
 
 people_protocol = [["canyon289", "postgressql"],
                    ["Rtzq0", "pop3"],
-                   ["Rtzq0", "sql"]]
+                   ["Rtzq0", "telnet"]]
 
 for person, protocol in people_protocol:
     try:

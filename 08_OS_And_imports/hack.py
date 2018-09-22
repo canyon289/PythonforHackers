@@ -3,7 +3,7 @@ Python can tell the underlying shell to run commands. Handy when for replacing
 bash scripts or calling tools in other languages
 
 Brutespray examples
-https://github.com/x90skysn3k/brutespray/blob/master/brutespray.py#L239
+https://github.com/x90skysn3k/brutespray/blob/master/brutespray.py#L271
 
 """
 # Other code can be brought in using the import statement
