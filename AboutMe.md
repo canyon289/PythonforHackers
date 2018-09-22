@@ -19,4 +19,4 @@
 
 ## Legal boilerplate
 Everything I say is my own opinion  
-*I'm not representing anyone or anything in this talk but myself*
+* I'm not representing anyone or anything in this talk but myself*
