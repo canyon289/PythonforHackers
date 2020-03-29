@@ -10,15 +10,15 @@ https://github.com/x90skysn3k/brutespray/blob/master/brutespray.py#L213
 protocols = {"postgressql":"sql",
              "pop3": "email"}
 
-people_protocol = [["canyon289", "postgressql"],
-                   ["Rtzq0", "pop3"],
-                   ["Rtzq0", "sql"]]
+people_protocol = [["Steve", "postgressql"],
+                   ["Alice", "pop3"],
+                   ["Alice", "sql"]]
 
 for person, protocol in people_protocol:
     # Equality is one type of conditional
     # Equal is denoted as ==
     # Single = is called an assignment operator for reference
-    if person == "Rtzq0":
+    if person == "Alice":
         print("Hacking " + person + " with " + protocol + " even harder")
     else:
         print("Hacking " + person + " with " + protocol)
@@ -26,10 +26,10 @@ for person, protocol in people_protocol:
 
 # And/Or statements can be used with conditionals as well
 for person, protocol in people_protocol:
-    if person == "Rtzq0" and protocol == "pop3":
+    if person == "Alice" and protocol == "pop3":
         print("Hacking " + person + " with " + protocol + " with phishing")
 
-    elif person == "Rtzq0" and protocol == "sql":
+    elif person == "Alice" and protocol == "sql":
         print("Hacking " + person + " with " + protocol + " with sqlinjection")
 
     else:

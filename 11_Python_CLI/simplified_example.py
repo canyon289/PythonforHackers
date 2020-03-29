@@ -14,7 +14,7 @@ And see what happens
 import argparse
 
 parser = argparse.ArgumentParser(description="A sample Command Line Interface")
-parser.add_argument('-u', '--username', help="Username of person to hack", required=True, default="canyon289")
+parser.add_argument('-u', '--username', help="Username of person to hack", required=True, default="Steve")
 parser.add_argument('-p', '--password', help="Passwords to try", required=False)
 
 # Set nargs to take a list of protocols

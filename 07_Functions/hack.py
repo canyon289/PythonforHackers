@@ -10,9 +10,9 @@ PROTOCOLS = {"postgressql": "sql",
              "pop3": "email"}
 
 
-PEOPLE_PROTOCOL = [["canyon289", "postgressql"],
-                   ["Rtzq0", "pop3"],
-                   ["Rtzq0", "sql"]]
+PEOPLE_PROTOCOL = [["Steve", "postgressql"],
+                   ["Alice", "pop3"],
+                   ["Alice", "sql"]]
 
 
 def pwn(people_protocol):

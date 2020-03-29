@@ -17,8 +17,8 @@ PROTOCOLS = {"postgressql": "sql",
              "pop3": "email"}
 
 
-PEOPLE_PROTOCOL = [["canyon289", "postgressql"],
-                   ["Rtzq0", "pop3"]]
+PEOPLE_PROTOCOL = [["Steve", "postgressql"],
+                   ["Alice", "pop3"]]
 
 
 # An example of OS dependent things are filepaths. Windows does it differently than Linux

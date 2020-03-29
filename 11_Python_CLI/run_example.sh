@@ -1,3 +1,3 @@
 #/bin/bash
 
-python simplified_example.py -u canyon289 -p Password123 --protocols mysql pop3
+python simplified_example.py -u Steve -p Password123 --protocols mysql pop3

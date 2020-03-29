@@ -51,7 +51,7 @@ def print_targets(people_protocol):
 
 
 parser = argparse.ArgumentParser(description="A sample Command Line Interface")
-parser.add_argument('-u', '--username', nargs='+', help="Usernames of people to hack", required=True, default="canyon289")
+parser.add_argument('-u', '--username', nargs='+', help="Usernames of people to hack", required=True, default="Steve")
 parser.add_argument('-p', '--password', nargs='+', help="Passwords to try", required=False)
 parser.add_argument('-pr', '--protocols', nargs='+', help="Protocols to try", required=False)
 

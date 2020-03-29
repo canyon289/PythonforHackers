@@ -9,7 +9,7 @@ For Loop
 https://github.com/x90skysn3k/brutespray/blob/master/brutespray.py#L209
 """
 
-people = ["canyon289", "Rtzq0"]
+people = ["Steve", "Alice"]
 
 # Iteration in python is as easy as saying for thing in iterable
 # Lists are one of many objects that support iterables
@@ -20,7 +20,7 @@ for person in people:
 protocols = {"postgressql": "sql",
              "pop3": "email"}
 
-people_protocol = [["canyon289", "postgressql"], ["Rtzq0", "pop3"]]
+people_protocol = [["Steve", "postgressql"], ["Alice", "pop3"]]
 
 for person, protocol in people_protocol:
     print("Hacking " + person + " with " + protocol)

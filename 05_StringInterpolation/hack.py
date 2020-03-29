@@ -9,12 +9,12 @@ Not in Brutespray but really needs to be
 protocols = {"postgressql":"sql",
              "pop3": "email"}
 
-people_protocol = [["canyon289", "postgressql"],
-                   ["Rtzq0", "pop3"],
-                   ["Rtzq0", "sql"]]
+people_protocol = [["Steve", "postgressql"],
+                   ["Alice", "pop3"],
+                   ["Alice", "sql"]]
 
 for person, protocol in people_protocol:
-    if person == "Rtzq0":
+    if person == "Alice":
 
         # .format string formatting/interpolation. Use this instead of + signs
         print("Hacking {0} with {1} even harder".format(person, protocol))
