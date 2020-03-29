@@ -18,3 +18,6 @@ Here's the recipe.
 # How this repo works
 Each folder contains a Python script called hack.py. The functionality is built up one piece at a time
 * Links to example in Brutespray are provided at the top of each file
+
+## 2020 Update
+Link to slide deck [here](https://docs.google.com/presentation/d/1tGv_tX3L6eJzmjoEpX7TpEb2Cv6IBxr8SqceAFRz0_c/edit?usp=sharing)
